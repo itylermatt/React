@@ -1,0 +1,11 @@
+.Contact{
+    width: 60%;
+    height: 60%;
+    margin:2% 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.button{
+    width: 100%;
+}

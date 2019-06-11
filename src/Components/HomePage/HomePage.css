@@ -1,0 +1,86 @@
+.blinkerss{
+    /*color:green;*/
+    animation: blink 5s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink{
+    to{
+        visibility: hidden;
+    }
+}
+
+.sideMenu{
+    display: none;
+
+}
+
+.menuIcon{
+    margin-top:50px;
+}
+
+.ity{
+    color:red;
+    width:100%;
+    text-align: center;
+
+}
+
+.Brand{
+    padding: 0 5px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.logo{
+    height:90px;
+    /*width: 80px;*/
+}
+
+.iconItem{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+
+.icon{
+    margin-left: 18px;
+    margin-top: 18px;
+    color:white;
+
+}
+
+.logo_text{
+    color:white;
+}
+
+.sidebar{
+    background-color: green;
+}
+
+
+div.narbar-nav{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+.Navv{
+    /*height: 10%;*/
+    /*background-color: black;*/
+
+}
+
+@media only screen and (max-width: /*745*/930px) {
+    .sideMenu{
+        /*display: inherit;*/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .Navigate{
+        display: none;
+
+    }
+}
