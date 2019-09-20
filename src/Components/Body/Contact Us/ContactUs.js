@@ -11,6 +11,10 @@ class ContactUs extends Component{
         e.preventDefault();
     };
 
+    componentDidMount() {
+        console.log(this.props.route);
+    }
+
     render() {
         return(
             <div className={'Contact'}>

@@ -3,8 +3,11 @@
     width: 18rem;
     height: auto;
     padding: 0;
-    margin: 7px;
-
+    /*margin: 7px;*/
+    margin-left: 25px;
+    z-index: 10;
+    /*background-color: #f0f2f5;*/
+    background-color: #fcfcfc !important;
 }
 
 .image{
@@ -18,8 +21,26 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin-left: 0;
+    margin-top: 3%;
+}
+.ListView{
+    width: 100%;
+    margin-top : 8%;
 }
 
+.sidenav{
+    height: fit-content;
+    width:0;
+    position:absolute;
+    z-index: 1;
+    top:15%;
+    left:0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /*padding-top: 10px;*/
+}
 
 .modalImage{
     width: 100%;
@@ -28,6 +49,7 @@
 
 .modalItem{
     width: 100%;
+    z-index: 100000;
 }
 
 .listIcon{
@@ -36,7 +58,59 @@
 }
 
 .img:hover{
-    transform:scale(2.0);
+    transform:scale(1.5);
     z-index:100;
 }
 
+.sidenav .closebtn{
+    position: absolute;
+    top:0;
+    right:25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media only screen and (max-height: 450px){
+    .sidenav {
+        padding-top:15px;
+    }
+    .sidenav a{font-size: 18px;}
+}
+@media only screen and (max-width: 922px){
+    .sidenav{
+        padding-top:15px;
+        width: 0 !important;
+        background-color: green;
+        /*display: none;*/
+    }
+    .pageRef{
+        margin-left: 0 !important;
+        transition: 3s ease-in-out;
+        padding-top: 10%;
+        /*background-color: pink;*/
+    }
+    .sidenav a{font-size: 18px;}
+}
+
+.thumbnail{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width:50px;
+    margin-left: 3rem;
+}
+
+.thumbnail:hover{
+    box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
+}
+
+.seeMore{
+    display: flex;
+    position: fixed;
+    bottom:0;
+    right:0;
+}
+.seeMore:hover{
+    color:red;
+    cursor: pointer;
+}

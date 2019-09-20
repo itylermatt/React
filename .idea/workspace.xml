@@ -2,273 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a37bdda-18ee-4bd8-95e2-1aad8a4a6003" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/Admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Detections/ListView/ListView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Login/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/Modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/AdminIcon.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/CamerasIcon.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ContactUsIcon.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/DetectionsIcon.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/SignOutIcon.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/StatusIcon.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/UltLogo.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/UltLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/UltLogoOnly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/no.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/test.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/tick.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/tick1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/tick2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Auxilliary/Auxilliary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/AddDevice/AddDevice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/AddUser/AddUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/DailyReport/DailyReport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/DeleteDevice/DeleteDevice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/DeleteDevice/DeleteDevice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/EditUser/EditUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/PingDevices/PingDevices.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/PingDevices/PingDevices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Admin/UserAuth/UserAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/FalseDetectionsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/SideNavChat/SideNavChat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/SideNavChat/SideNavChat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Login/EmergencyChat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/SignUp/SignUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/SignUp/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Foot/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Loader/Loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Loader/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/AutoSuggestion/AutoSuggestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Autocomplete/Autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Autocomplete/Autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Dummy/Accordion/Accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Dummy/Canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Dummy/Dummy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Dummy/DummyDependency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Dummy/DummyImageUpload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Firestore/Firestore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Maps/Maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/urls/temp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/urls/url.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Admin/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Admin/Admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Chat/Chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Chat/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Login/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/no.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/no.jpg" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Body/Admin/Admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/HomePage/HomePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="153" column="49" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Body/Login/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>check</find>
-      <find>res.da</find>
-      <find>res.</find>
-      <find>NavLink</find>
-      <find>navbar-nav</find>
-      <find>menuI</find>
-      <find>iconItem</find>
-      <find>rend</find>
-      <find>button</find>
-      <find>Consumer</find>
-      <find>modal</find>
-      <find>axios</find>
-      <find>Modal</find>
-      <find>moda</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/Components/NavBar/Navbar.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Temp/Temp.js" />
-        <option value="$PROJECT_DIR$/src/Components/NavBar/Navbar.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Detections/Detections.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Detections/Detections.js" />
-        <option value="$PROJECT_DIR$/src/Components/NavBar/HomePage.css" />
-        <option value="$PROJECT_DIR$/src/Components/NavBar/HomePage.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Login/Login.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Detections/CardDetections.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Detections/CardDetections.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Detections/ListView/ListView.js" />
-        <option value="$PROJECT_DIR$/src/Components/HomePage/HomePage.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.css" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.css" />
-        <option value="$PROJECT_DIR$/src/Components/Modal/Modal.css" />
-        <option value="$PROJECT_DIR$/src/Components/Modal/Modal.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Login/Login.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/HomePage/HomePage.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Admin/Admin.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
-  </component>
+  <component name="ProjectId" id="1PghIG7z33sVXJ6GaWdvCZH2QzY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="ultra-dash" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\insta\WebstormProjects\ultra-dash" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="ultra-dash" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\insta\WebstormProjects\ultra-dash" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ultra-dash" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\insta\WebstormProjects\ultra-dash" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ultra-dash" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\insta\WebstormProjects\ultra-dash" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ultra-dash" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\insta\WebstormProjects\ultra-dash" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Body" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ultra-dash" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\insta\WebstormProjects\ultra-dash" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Body" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ultra-dash" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\insta\WebstormProjects\ultra-dash" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Body" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Login" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ultra-dash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ultra-dash" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ultradash" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -277,9 +84,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Body/Detections/CardView" />
+      <recent name="C:\Users\insta\WebstormProjects\ultra-dash\src\hoc\Dummy" />
+      <recent name="C:\Users\insta\WebstormProjects\ultra-dash\src\assets\images" />
       <recent name="C:\Users\insta\WebstormProjects\ultra-dash\src\Components\Body\Detections\CardView" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -299,8 +110,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="JavaScript Debug.Debug Application">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -313,6 +134,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -324,234 +155,102 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559811190850</updated>
-      <workItem from="1559811192330" duration="75611000" />
+      <workItem from="1559811192330" duration="94950000" />
+      <workItem from="1560842318858" duration="37851000" />
+      <workItem from="1561105634830" duration="7062000" />
+      <workItem from="1561357777234" duration="11799000" />
+      <workItem from="1561727843053" duration="1341000" />
+      <workItem from="1561926821789" duration="9000" />
+      <workItem from="1561965763216" duration="64299000" />
+      <workItem from="1562328600517" duration="41889000" />
+      <workItem from="1563011770782" duration="668000" />
+      <workItem from="1563130145399" duration="23035000" />
+      <workItem from="1563275704016" duration="10247000" />
+      <workItem from="1563774318636" duration="3395000" />
+      <workItem from="1564464898108" duration="5080000" />
+      <workItem from="1564506657279" duration="779000" />
+      <workItem from="1564550506187" duration="15396000" />
+      <workItem from="1564643233027" duration="12690000" />
+      <workItem from="1564984297719" duration="12061000" />
+      <workItem from="1565080268780" duration="13623000" />
+      <workItem from="1565167280316" duration="4766000" />
+      <workItem from="1565206101598" duration="4285000" />
+      <workItem from="1565248306132" duration="10252000" />
+      <workItem from="1565585396431" duration="6390000" />
+      <workItem from="1565695052246" duration="8006000" />
+      <workItem from="1565759024368" duration="17435000" />
+      <workItem from="1565852532289" duration="12144000" />
+      <workItem from="1565938802208" duration="9479000" />
+      <workItem from="1566191837207" duration="540000" />
+      <workItem from="1566192456234" duration="19485000" />
+      <workItem from="1566288310581" duration="3756000" />
+      <workItem from="1566301566209" duration="518000" />
+      <workItem from="1566303090830" duration="14873000" />
+      <workItem from="1566457971240" duration="11556000" />
+      <workItem from="1566804603618" duration="12295000" />
+      <workItem from="1566976609240" duration="1897000" />
+      <workItem from="1567033917611" duration="516000" />
+      <workItem from="1567036928019" duration="243000" />
+      <workItem from="1567085299494" duration="757000" />
+      <workItem from="1567152844432" duration="4176000" />
+      <workItem from="1567413275077" duration="151000" />
+      <workItem from="1567425011645" duration="101000" />
+      <workItem from="1567425834426" duration="787000" />
+      <workItem from="1567426816406" duration="659000" />
+      <workItem from="1567430024061" duration="802000" />
+      <workItem from="1567524849552" duration="5979000" />
+      <workItem from="1567584963083" duration="7172000" />
+      <workItem from="1567753374500" duration="3514000" />
+      <workItem from="1567760874004" duration="4185000" />
+      <workItem from="1567772039629" duration="304000" />
+      <workItem from="1567772354188" duration="64000" />
+      <workItem from="1567772427506" duration="1891000" />
+      <workItem from="1567774846141" duration="4959000" />
+      <workItem from="1568016397230" duration="155000" />
+      <workItem from="1568017652072" duration="2920000" />
+      <workItem from="1568020604600" duration="9387000" />
+      <workItem from="1568188858774" duration="9000" />
+      <workItem from="1568273580891" duration="7559000" />
+      <workItem from="1568292358354" duration="30042000" />
+      <workItem from="1568704908612" duration="403000" />
+      <workItem from="1568738861304" duration="1254000" />
+      <workItem from="1568812397165" duration="3504000" />
+      <workItem from="1568884304453" duration="594000" />
+      <workItem from="1568885438036" duration="1074000" />
+      <workItem from="1568887471463" duration="783000" />
+      <workItem from="1568929796637" duration="493000" />
+      <workItem from="1568969469315" duration="1220000" />
+      <workItem from="1568972024050" duration="1204000" />
+      <workItem from="1568975628743" duration="4332000" />
     </task>
+    <task id="LOCAL-00001" summary="React">
+      <created>1560263671739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560263671739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75611000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.32319894" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32577905" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.33427763" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hoc/Auxilliary/Auxilliary.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack-sources/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-server/bin/webpack-dev-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3893">
-          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-server/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Login/Login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/DeviceStatus/DeviceStatus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Contact Us/ContactUs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="45" column="84" lean-forward="true" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Detections/ListView/ListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/HomePage/HomePage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Modal/Modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Modal/Modal.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Cameras/Cameras.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Detections/CardView/CardDetections.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Admin/Admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Login/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/HomePage/HomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="153" column="49" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="React" />
+    <option name="LAST_COMMIT_MESSAGE" value="React" />
   </component>
 </project>
